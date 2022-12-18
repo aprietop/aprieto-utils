@@ -1,14 +1,9 @@
-## Micronaut 3.7.4 Documentation
+Get it from maven central 
 
-- [User Guide](https://docs.micronaut.io/3.7.4/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.7.4/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.7.4/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
-
----
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-
+```xml
+<dependency>
+  <groupId>io.github.aprieto</groupId>
+  <artifactId>aprieto-utils</artifactId>
+  <version>0.1.0</version>
+</dependency>
+```
