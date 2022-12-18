@@ -9,6 +9,11 @@
     <packaging>${packaging}</packaging>
     <name>aprieto utils</name>
     <url>https://github.com/aprietop/artifacts</url>
+    <parent>
+        <groupId>io.micronaut</groupId>
+        <artifactId>micronaut-parent</artifactId>
+        <version>3.7.4</version>
+    </parent>
     <scm>
         <url>git@github.com:aprietop/aprieto-utils.git</url>
         <connection>git@github.com:aprietop/aprieto-utils.git</connection>
