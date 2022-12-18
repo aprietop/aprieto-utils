@@ -1,8 +1,6 @@
 package io.github.aprietop;
 
-import org.apache.commons.lang3.StringUtils;
-
-public class StingUtils {
+public class StringUtils {
 
 /**
  * <p>Strips whitespace from the start and end of a String  returning
@@ -26,7 +24,7 @@ public class StingUtils {
  * @return the trimmed String, or an empty String if {@code null} input
  */
     public static String stripToEmpty(String str){
-        return StringUtils.stripToEmpty(str);
+        return org.apache.commons.lang3.StringUtils.stripToEmpty(str);
     }
 
 }
